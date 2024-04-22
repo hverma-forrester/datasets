@@ -127,8 +127,6 @@ REQUIRED_PKGS = [
     "tqdm>=4.62.1",
     # for fast hashing
     "xxhash",
-    # for better multiprocessing
-    "multiprocess",
     # to save datasets locally or on any filesystem
     # minimum 2023.1.0 to support protocol=kwargs in fsspec's `open`, `get_fs_token_paths`, etc.: see https://github.com/fsspec/filesystem_spec/pull/1143
     "fsspec[http]>=2023.1.0,<=2024.3.1",
